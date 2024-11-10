@@ -9,6 +9,6 @@ public class Asiento {
     void cambiarColor(String nuevoColor){
         for(int i = 0; i < coloresValidos.length; i++){
             if(nuevoColor == coloresValidos[i]){color = nuevoColor;};
-        }
+        };
     }
 }
